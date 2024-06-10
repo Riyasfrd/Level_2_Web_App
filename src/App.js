@@ -1,5 +1,5 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import { Header, Footer, ArticleSection } from "./components/organisms";
+import { Header, Footer, ArticleSection, ArticleSectionMain } from "./components/organisms";
 
 function App() {
   return (
@@ -7,6 +7,9 @@ function App() {
       <Header />
       <main className="main">
         
+        <section>
+          <ArticleSectionMain />
+        </section>
         <section>
           <ArticleSection />
         </section>
