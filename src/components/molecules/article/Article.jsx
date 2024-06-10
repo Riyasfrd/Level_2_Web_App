@@ -26,11 +26,14 @@ export const Article = ({
   
           {articleContent && <Typography contend={articleContent} />}
   
-          <div className="article__tags">
+          {!isMainArticle && (
+            <div className="article__tags">
             <ArticleTag contend="UI & UX Design" />
             <ArticleTag contend="Development" />
             <ArticleTag contend="Marketing" />
           </div>
+          )}
+          
           <div className="article__actions">
             <Button buttonTitlte="Click me" buttonType="button__primary" />
             <Button buttonTitlte="Click me" buttonType="button__secondary" />
