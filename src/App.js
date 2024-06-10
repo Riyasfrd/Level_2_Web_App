@@ -6,7 +6,7 @@ function App() {
     <>
       <Header />
       <main className="main">
-        
+        <section></section>
         <section>
           <ArticleSection />
         </section>
