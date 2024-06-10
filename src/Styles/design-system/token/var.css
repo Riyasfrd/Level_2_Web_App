@@ -1,0 +1,44 @@
+:root{
+    /**********
+        Color
+    **********/
+    --base-primary-color : #6A0066;
+    ;
+
+    --base-secondary-color-1: #fff;
+    --base-secondary-color-2: #000000;
+    --base-secondary-color-3: #d9d9d9;
+    --base-secondary-color-4: #e1e1e1;
+
+    --base-secondary-color-2-transparent-80: rgba(0,0,0,0.8);
+    --base-secondary-color-2-transparent-69: rgba(0,0,0,0.69);
+
+    /* 
+        ##Typhography
+    */
+    --font-body: 16px;
+
+    --font-h1-mobile: 32px;
+    --font-h1-desktop: 56px;
+
+    --font-h2-mobile: 20px;
+    --font-h2-desktop: 40px;
+
+    --font-h3: 30px;
+
+    --font-nav-menu: 16px;
+    --font-button: 16px;
+    --font-article-tag: 12px;
+
+    /* #font Family */
+
+    --font-family: "Roboto", sans-serif;
+
+    --font-weight-100: 100;
+    --font-weight-300: 300;
+    --font-weight-400: 400;
+    --font-weight-500: 500;
+    --font-weight-700: 700;
+    --font-weight-900: 900;
+}
+

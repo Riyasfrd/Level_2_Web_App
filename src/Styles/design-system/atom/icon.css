@@ -1,0 +1,84 @@
+.icon_humberg{
+    color: var(--base-secondary-color-1);
+    height: 20px;
+    cursor: pointer;
+    position: relative;
+    z-index: 10;
+}
+
+.icon__social{
+    display: flex;
+    height: 27px;
+    background-image: url('../../../Assets/Icons/social_media_Icons_light.png');
+    background-size: 225px 83px;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    text-indent: -200px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    -moz-transition: all 0.3s ease;
+    -webkit-transition: all 0.5s ease;
+}
+
+.icon__social:hover{
+    background-image: url('../../../Assets/Icons/social_media_icons_dark.png');
+}
+
+.icon__social--w{
+    width: 24px;
+}
+
+.icon__social--instragram{
+    width: 27px;
+    background-position: -64px 0px;
+}
+
+.icon__social--deviantrat{
+    width: 17px;
+    background-position: -131px 0px;
+}
+
+.icon__social--twitter{
+    width: 28px;
+    background-position: -188px 0px;
+}
+
+.icon__social--soundcloud{
+    width: 31px;
+    background-position: 0px -33px;
+}
+
+.icon__social--linkdin{
+    width: 26px;
+    background-position: -71px -34px;
+}
+
+.icon__social--m{
+    width: 28px;
+    background-position: -137px -34px;
+}
+
+.icon__social--facebook{
+    width: 13px;
+    background-position: -205px -30px;
+}
+
+.icon__social--paypol{
+    width: 23px;
+    background-position: 0px -64px;
+}
+
+.icon__social--play{
+    width: 28px;
+    background-position: -63px -64px;
+}
+
+.icon__social--codepen{
+    width: 27px;
+    background-position: -131px -64px;
+}
+
+.icon__social--pinterest{
+    width: 21px;
+    background-position: -198px -64px;
+}

@@ -1,10 +1,18 @@
-import './App.css';
+/* eslint-disable jsx-a11y/anchor-is-valid */
+import { Header, Footer, ArticleSection } from "./components/organisms";
 
 function App() {
   return (
-    <div className="App">
-      <h1>Sample App</h1>
-    </div>
+    <>
+      <Header />
+      <main className="main">
+        
+        <section>
+          <ArticleSection />
+        </section>
+      </main>
+      <Footer />
+    </>
   );
 }
 

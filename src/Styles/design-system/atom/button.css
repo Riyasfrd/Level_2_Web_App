@@ -1,0 +1,51 @@
+/*######################################
+  Button
+#########################################*/
+
+.button{
+    display: inline-block;
+    margin-right: 5px;
+    height: 34px;
+    border-radius: 8px;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border: 2px solid var(--base-primary-color);
+    font-size: var(--font-button);
+}
+
+.button:hover{
+    cursor: pointer;
+    transition: all 0.5s ease;
+    -moz-transition: all 0.3s ease;
+    -webkit-transition: all 0.5s ease;
+}
+
+/*######################################
+  Primary Button
+#########################################*/
+
+.button__primary{
+    width: 110px;
+    background: var(--base-primary-color);
+    color: var(--base-secondary-color-1);
+}
+
+.button__primary:hover{
+    background: var(--base-secondary-color-1);
+    color: var(--base-primary-color);
+}
+
+/*######################################
+  Secondary Button
+#########################################*/
+
+.button__secondary{
+    width: 112px;
+    background: var(--base-secondary-color-1);
+    color: var(--base-primary-color);
+}
+
+.button__secondary:hover{
+    background: var(--base-primary-color);
+    color: var(--base-secondary-color-1);
+}

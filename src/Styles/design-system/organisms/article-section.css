@@ -1,0 +1,25 @@
+.article-section{
+    gap: 16px;
+    margin: 0 0 38px;
+}
+
+.article-section,
+.article-section__list{
+    display: flex;
+    flex-direction: column;
+}
+
+.article-section__heading h2{
+    margin: 0;
+    text-align: center;
+}
+
+.article-section__list{
+    gap: 38px;
+}
+
+@media(min-width: 768px){
+    .article-section__list .article:nth-child(2n){
+        flex-direction: row-reverse;
+    }
+}
