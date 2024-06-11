@@ -9,7 +9,7 @@ export const MenuItem = ({
     
   return (
     <li className={`menu__item ${isActive ? 'active' : isButton ? 'menu__item-button' : ''}`}>
-        {!isButton ? <a href="#">{contend}</a> : <Button buttonTitlte={contend}/>}
+        {!isButton ? <a href="#">{contend}</a> : <Button buttonType={"button__primary"} buttonTitlte={contend}/>}
     </li>
   )
 }
