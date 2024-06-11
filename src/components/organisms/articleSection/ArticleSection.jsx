@@ -4,8 +4,8 @@ import { ArticleSectionHeading } from "./articleSectionHeading/ArticleSectionHea
 export const ArticleSection = () => {
   return (
     <>
-      <section class="article-section">
-        <div class="article-section__container">
+      <section className="article-section">
+        <div className="article-section__container">
           <ArticleSectionHeading articleSectionHeadingType="h2" articleSectionHeading="Our Work" />
           <ArticleSectionList />
         </div>

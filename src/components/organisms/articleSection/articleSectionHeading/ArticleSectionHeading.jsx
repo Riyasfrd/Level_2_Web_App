@@ -6,7 +6,7 @@ export const ArticleSectionHeading = ({
 }) => {
   return (
     <>
-      <div class="article-section__heading">
+      <div className="article-section__heading">
         <Typography type={articleSectionHeadingType} contend={articleSectionHeading} />
       </div>
     </>

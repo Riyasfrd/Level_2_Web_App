@@ -1,5 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import { Header, Footer, ArticleSection, ArticleSectionMain } from "./components/organisms";
+import { Header, Footer, ArticleSection, ArticleSectionMain, SocialMediaIconsBlock } from "./components/organisms";
+
+const socialMediaIcons = ['w', 'instragram', 'deviantrat', 'twitter', 'soundcloud', 'linkdin', 'm', 'facebook', 'paypol', 'play', 'codepen', 'pinterest'];
 
 function App() {
   return (
@@ -9,6 +11,9 @@ function App() {
         
         <section>
           <ArticleSectionMain />
+        </section>
+        <section>
+          <SocialMediaIconsBlock iconlist={socialMediaIcons} />
         </section>
         <section>
           <ArticleSection />

@@ -1,7 +1,8 @@
 import { MenuItem } from "./menuItem/MenuItem";
 import { Button } from "./button/Button";
 import { Logo } from "./logo/Logo";
-import { IconHumberg } from "./iconHumberg/IconHumberg";
+import { IconHumberg } from "./icons/IconHumberg";
+import { SocialMediaIcons } from "./icons/SocialMediaIcons";
 import { ArticleTag } from "./articleTag/ArticleTag";
 import { Picture } from "./picture/Picture";
 import { Typography } from "./typography/Typography";
@@ -13,5 +14,6 @@ export {
     IconHumberg,
     ArticleTag,
     Picture,
-    Typography
+    Typography,
+    SocialMediaIcons
 };
