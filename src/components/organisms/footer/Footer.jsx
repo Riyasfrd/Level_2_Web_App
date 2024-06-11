@@ -1,8 +1,8 @@
 
 export const Footer = () => {
   return (
-    <footer class="footer__container">
-        <div class="footer">
+    <footer className="footer__container">
+        <div className="footer">
             &copy; All Rights Reserved
         </div>
     </footer>

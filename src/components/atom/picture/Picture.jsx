@@ -7,7 +7,7 @@ export const Picture = ({
   return (
     <>
       <picture className={`article__image ${isMainArticle ? 'article__image--main' : ''}`}>
-        <source media="{min-width: 768px}" srcset={imgDesktopUrl} />
+        <source media="{min-width: 768px}" srcSet={imgDesktopUrl} />
         <img src={imgMobileUrl} alt={imgAltText} />
       </picture>
     </>

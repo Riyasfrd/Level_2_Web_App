@@ -46,7 +46,7 @@ export const Article = ({
   return (
       <article className={`article ${isMainArticle ? 'article__with-no-padding' : ''}`}>
         {isMainArticle ? (
-          <div class="article-section__container-main">
+          <div className="article-section__container-main">
             {handleArticleDetails()}
           </div>
         ): (
