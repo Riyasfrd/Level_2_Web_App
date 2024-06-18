@@ -1,4 +1,7 @@
 /** @type { import('@storybook/react').Preview } */
+
+import '../src/Styles/index.css'
+
 const preview = {
   parameters: {
     controls: {
@@ -11,3 +14,7 @@ const preview = {
 };
 
 export default preview;
+
+
+// Preview.js is used to configure the preview of your components in Storybook.
+// such as font, colors layout of the screen
